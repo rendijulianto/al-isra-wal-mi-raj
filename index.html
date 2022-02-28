@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-custom-green -z-50">
+      <div class="canvas">
+        <div class="cloud"></div>
+        <div class="cloud a"></div>
+        <div class="cloud b"></div>
+        <div class="cloud c"></div>
+        <div class="star"></div>
+        <div class="star yellow"></div>
+        <div class="star yellow"></div>
+        <div class="star a"></div>
+        <div class="star a"></div>
+        <div class="star b"></div>
+        <div class="star c"></div>
+        <div class="star d"></div>
+        <div class="wind"></div>
+        <div class="moon"></div>
+      </div>
+      <div class="container pr-5 z-0">
+        <div class="grid grid-cols-2">
+          <div class="col-span-1">
+            <div class="absolute w-1/2 bottom-0">
+              <img src="assets/images/masjid.png" />
+            </div>
+          </div>
+          <div class="col-span-1">
+            <div class="absolute w-1/2 right-0 px-20">
+              <div>
+                <h1 class="title-main">The</h1>
+                <h1 class="title-main">Night</h1>
+                <h1 class="title-main">Jourhey</h1>
+              </div>
+              <div>
+                <h1 class="text-white text-4xl">*</h1>
+              </div>
+              <div>
+                <h2 class="title-sub">Al-'Isra' wal-Mi'raj</h2>
+                <p class="title-content">
+                  Adalah bagian kedua dari perjalanan yang dilakukan oleh Nabi
+                  Muhmmad S.A.W dalam waktu satu malam saja. Kerjadian ini
+                  merupakan salah satu peristiwa penting bagi umat Islam, karena
+                  pada peristiwa inilah beliau mendapatkan perintah untuk
+                  menunaikan salat lima waktu dalam sehari semalam.
+                </p>
+                <p class="title-content">
+                  Surah ke-17 di Al-Quran, yaitu Surat Al-Isra.[2]
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom"></div>
+      </div>
+    </div>
+    <div style="display: none">
+      <audio id="alisra" controls autoplay>
+        <source src="assets/audio/alisra.mp3" type="audio/mpeg" />
+        Your brower does not support the audio element.
+      </audio>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script src="assets/js/script.js"></script>
+</html>
